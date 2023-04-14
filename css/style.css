@@ -203,12 +203,12 @@ header .header_box ul.gnb>li:hover>a {
 .design02 ul.gucci {
     position: absolute;
     left: 1021px;
-    top: 166px;
+    top: 158px;
 }
 .design02 ul.popup {
     position: absolute;
     left: 1316px;
-    top: 166px;
+    top: 158px;
 }
 .design02 ul.small02_txt {
     position: absolute;
@@ -245,7 +245,7 @@ header .header_box ul.gnb>li:hover>a {
 .design02 ul.visit3 {
     position: absolute;
     left: 1021px;
-    top: 517px;
+    top: 510px;
 }
 .design02 ul.visit3 img {
     width: 270px;
@@ -448,8 +448,11 @@ header .header_box ul.gnb>li:hover>a {
 }
 .port_more li p {
     position: absolute;
-    left: 817px;
+    left: 821px;
     font-size: 48px;
     font-weight: bold;
     color: #000;
+}
+.port_more li p:hover {
+    color: #3A664B;
 }
