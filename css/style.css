@@ -38,24 +38,21 @@ header .header_box {
     width: 100%;
     height: 680px;
 }
-header .header_box .exper_cir {
-    position: absolute;
-    left: 1300px;
-    top: 146px;
-    width: 428px;
-    height: 428px;
-    background-color: rgba(195, 211, 187, 0.6);
-    border-radius: 50%;
-}
 header .header_box .exper_txt {
     position: absolute;
     left: 360px;
     top: 315px;
+    z-index: 15;
 }
 header .header_box .exper_txt p {
     font-size: 200px;
     font-weight: medium;
     color: rgba(195, 211, 187, 0.3);
+}
+header .header_box .exper_img {
+    position: absolute;
+    left: 1275px;
+    top: 188px;
 }
 header .header_box h1 {
     float: left;
@@ -111,6 +108,13 @@ header .header_box ul.gnb>li:hover>a {
     height: 240px;
     background-color: rgba(195, 211, 187, 1);
 }
+.exper_box li {
+    color: #fff;
+    font-size: 40px;
+    font-weight: medium;
+    text-align: center;
+    padding-top: 90px;
+}
 .design01 {
     width: 100%;
     height: 1000px;
@@ -138,7 +142,7 @@ header .header_box ul.gnb>li:hover>a {
 .design01 .pic1 {
     position: absolute;
     left: 463px;
-    top: 443px;
+    top: 483px;
 }
 .design01 .pic1 img {
     width: 270px;
@@ -147,21 +151,32 @@ header .header_box ul.gnb>li:hover>a {
 .design01 .pic2 {
     position: absolute;
     left: 621px;
-    top: 160px;
+    top: 200px;
 }
 .design01 .pic2 img {
     width: 270px;
     height: 310px;
 }
-.design01 .pic3 {}
-.design01 .pic4 {}
-.design01 .pic5 {}
-
+.design01 .fashion_vd {
+    position: absolute;
+    left: 930px;
+    top: 270px;
+    z-index: 10;
+}
+.design01 .pic4 {
+    position: absolute;
+    left: 1224px;
+    top: 540px;
+}
+.design01 .pic4 img {
+    width: 270px;
+    height: 310px;
+}
 .design01 ul.design_txt {
     width: 457px;
     height: 115px;
     padding-left: 750px;
-    padding-top: 598px;
+    padding-top: 610px;
 }
 .design02 {
     width: 100%;
@@ -248,6 +263,15 @@ header .header_box ul.gnb>li:hover>a {
     top: 510px;
 }
 .design02 ul.visit3 img {
+    width: 270px;
+    height: 310px;
+}
+.design02 ul.visit4 {
+    position: absolute;
+    left: 1316px;
+    top: 510px;
+}
+.design02 ul.visit4 img {
     width: 270px;
     height: 310px;
 }
