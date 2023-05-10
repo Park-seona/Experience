@@ -41,7 +41,7 @@ header .header_box {
 header .header_box .new_txt {
     position: absolute;
     left: 830px;
-    top: 420px;
+    top: 460px;
 }
 header .header_box .new_txt {
     color: #C3D3BB;
@@ -157,11 +157,15 @@ header .header_box ul.gnb>li:hover>a {
     width: 270px;
     height: 310px;
 }
-.design01 .fashion_vd {
+.design01 .pic3 {
     position: absolute;
-    left: 930px;
-    top: 270px;
-    z-index: 10;
+    left: 1207px;
+    top: 356px;
+    z-index: 12;
+}
+.design01 .pic3 img {
+    width: 400px;
+    height: 225px;
 }
 .design01 .pic4 {
     position: absolute;
@@ -171,6 +175,15 @@ header .header_box ul.gnb>li:hover>a {
 .design01 .pic4 img {
     width: 270px;
     height: 310px;
+}
+.design01 .pic5 {
+    position: absolute;
+    left: 930px;
+    top: 209px;
+}
+.design01 .pic5 img {
+    width: 400px;
+    height: 225px;
 }
 .design01 ul.design_txt {
     width: 457px;
