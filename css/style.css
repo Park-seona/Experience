@@ -110,32 +110,45 @@ header .header_box ul.gnb>li:hover>a {
     width: 100%;
     height: 224px;
     background-color: rgba(195, 211, 187, 0.6);
+    /* background: url(../images/new_goal.jpg); */
     position: relative;
 }
 .new_txt1 {
     position: absolute;
-    left: 1074px;
+    left: 800px;
     top: 706px;
+}
+.new_txt1 li {
     color: #3A664B;
     font-size: 40px;
     font-weight: medium;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
 }
+.new_txt1 span {
+    font-weight: bold;
+}
 .new_txt2 {
     position: absolute;
-    left: 1317px;
-    top: 730px;
+    left: 1040px;
+    top: 760px;
     color: #3A664B;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: medium;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
 } 
 .new_hr {
     position: absolute;
-    left: 1224px;
+    left: 950px;
     top: 795px;
+}
+.way_box {
+    width: 100%;
+    height: 400px;
+    /* background-color: #fff8ed;
+    background: url(../images/way_.jpg); */
+    position: relative;
 }
 .design01 {
     width: 100%;
@@ -407,8 +420,8 @@ header .header_box ul.gnb>li:hover>a {
     top: 462px;
 }
 .design03 ul.mos1 img {
-    width: 380px;
-    height: 380px;
+    width: 439px;
+    height: 313px;
 }
 .design03 .mos1_txt {
     position: absolute;
@@ -423,11 +436,11 @@ header .header_box ul.gnb>li:hover>a {
 .design03 ul.mos2 {
     position: absolute;
     left: 539px;
-    top: 430px;
+    top: 504px;
 }
 .design03 ul.mos2 img {
-    width: 360px;
-    height: 450px;
+    width: 439px;
+    height: 313px;
 }
 .design03 .mos2_txt {
     position: absolute;
@@ -442,11 +455,11 @@ header .header_box ul.gnb>li:hover>a {
 .design03 ul.adobe1 {
     position: absolute;
     left: 1009px;
-    top: 430px;
+    top: 467px;
 }
 .design03 ul.adobe1 img {
-    width: 360px;
-    height: 450px;
+    width: 406px;
+    height: 312px;
 }
 .design03 .ad1_txt {
     position: absolute;
@@ -461,11 +474,11 @@ header .header_box ul.gnb>li:hover>a {
 .design03 ul.adobe2 {
     position: absolute;
     left: 1446px;
-    top: 462px;
+    top: 504px;
 }
 .design03 ul.adobe2 img {
-    width: 380px;
-    height: 380px;
+    width: 406px;
+    height: 312px;
 }
 .design03 .ad2_txt {
     position: absolute;
@@ -477,6 +490,32 @@ header .header_box ul.gnb>li:hover>a {
     font-size: 16px;
     font-family: 'noto sans KR';
 }
+
+/* .design04 {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    position: relative;
+}
+.design04 h2 {
+    position: absolute;
+    left: 408px;
+    top: 40px;
+    width: 470px;
+    height: 52px;
+    color: #000;
+    font-size: 36px;
+    z-index: 1000;
+}
+.design04 .green_under {
+    position: absolute;
+    left: 570px;
+    top: 67px;
+    width: 2px;
+    height: 24px;
+    background-color: #C3D3BB;
+} */
+
 .epilogue {
     width: 100%;
     height: 400px;
